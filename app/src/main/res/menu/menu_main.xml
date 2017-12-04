@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_yeninot"
+        android:title="Ekle"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_add">
+    </item>
+    <item android:title="FILTRE YOK" android:id="@+id/no_filter"></item>
+    <item android:title="Çok Vakit Var" android:id="@+id/menu_cokvakit"></item>
+    <item android:title="Az Zaman Kaldı" android:id="@+id/menu_azvakit"></item>
+    <item android:title="Tamamlananlar" android:id="@+id/menu_tamamlananlar"></item>
+    <item android:title="Tamamlanmayanlar" android:id="@+id/menu_tamamlanmayanlar"></item>
+</menu>

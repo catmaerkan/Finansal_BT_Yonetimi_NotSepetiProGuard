@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Filtre sonucu boş"
+    android:gravity="center"
+    android:paddingTop="@dimen/btn_text_padding_yukari_asagi"
+    android:background="@drawable/btn_not_ekle_arkaplan"
+    android:paddingBottom="@dimen/btn_text_padding_yukari_asagi"
+    >
+
+</TextView>

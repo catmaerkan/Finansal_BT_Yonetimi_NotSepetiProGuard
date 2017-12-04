@@ -1,0 +1,1 @@
+# NotSepetiProjesi_Finansal_BT_Yonetimi_NotSepetiAppProGuard

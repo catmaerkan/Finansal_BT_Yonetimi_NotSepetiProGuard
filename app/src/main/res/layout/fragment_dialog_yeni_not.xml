@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/dialog_background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_baslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bir Not Ekle"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="36dp"
+            />
+        <ImageButton
+            android:id="@+id/btn_dialog_kapat"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:tint="@color/colorPrimaryDark"
+            android:background="@null"
+            android:src="@drawable/ic_action_cancel"
+            android:layout_alignTop="@id/tv_baslik"
+            android:layout_alignBottom="@id/tv_baslik"
+            android:layout_alignParentRight="true"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_not"
+            android:background="@drawable/bg_edittext"
+            android:layout_below="@id/tv_baslik"
+            android:maxLines="1"
+            android:hint="Not girin"
+            android:padding="16dp"
+            />
+
+        <catmaerkan.com.notsepetiapp.TarihSecDatePicker
+            android:id="@+id/dp_tarih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@id/et_not" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_not_ekle"
+            android:layout_below="@id/dp_tarih"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_not_ekle_arkaplan"
+            android:text="Notu Ekle"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
+

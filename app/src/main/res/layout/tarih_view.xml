@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tv_tarih_gun"
+        android:text="15"
+        style="@style/tarih_item_style" />
+    <Space
+        android:layout_width="@dimen/tarih_item_arasi_bosluk"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_tarih_ay"
+        android:text="OCA"
+        style="@style/tarih_item_style"
+        />
+
+    <Space
+        android:layout_width="@dimen/tarih_item_arasi_bosluk"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_tarih_yil"
+        style="@style/tarih_item_style"
+        android:text="2017"
+        />
+
+</LinearLayout>

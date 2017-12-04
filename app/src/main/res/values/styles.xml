@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dialogTemasi" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="toolbarStyle" parent="Theme.AppCompat.Light">
+
+        <item name="android:colorBackground">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="tarih_item_style">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:drawableTop">@drawable/up_normal</item>
+        <item name="android:drawableBottom">@drawable/down_normal</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@drawable/bg_tarih_view_item</item>
+    </style>
+
+
+</resources>

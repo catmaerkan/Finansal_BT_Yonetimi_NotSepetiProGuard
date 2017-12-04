@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_genislik">192dp</dimen>
+    <dimen name="logo_yukseklik">192dp</dimen>
+    <dimen name="logo_margin">84dp</dimen>
+    <dimen name="btn_text_size">28sp</dimen>
+    <dimen name="btn_text_padding_sol_sag">60dp</dimen>
+    <dimen name="btn_text_padding_yukari_asagi">10dp</dimen>
+    <dimen name="tarih_item_arasi_bosluk">32dp</dimen>
+</resources>
