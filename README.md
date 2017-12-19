@@ -2,3 +2,4 @@
 
 
 Deadlock analizi yapıldı.
+Genel Kontroller yapıldı.
